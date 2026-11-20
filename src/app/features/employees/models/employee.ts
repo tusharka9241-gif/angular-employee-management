@@ -1,12 +1,12 @@
 export type EmployeeStatus = 'active' | 'inactive';
 
 export interface Employee {
-    id: number;
-    name: string;
-    email: string;
-    departmentId: number;
-    salary: number;
-    status: EmployeeStatus;
+  id: number;
+  name: string;
+  email: string;
+  departmentId: number;
+  salary: number;
+  status: EmployeeStatus;
 }
 
 // Derived types (using utility types)
